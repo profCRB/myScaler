@@ -1,5 +1,5 @@
 # myScaler
 This my repository regarding scaler Learning
-#ToDo things
+ToDo things
 Building small projects
 Uploading my Notes
