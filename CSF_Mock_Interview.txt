@@ -1,0 +1,149 @@
+time complexity = O(n*n)
+space complexity = O(n*n)
+public String concate(String str){
+    int n = str.length();
+    for(int i=0;i<n;i++){
+        str=str+'a';
+    }
+    return str;
+}
+
+String str1 = new String("RAM");
+String str2 = "RAM";
+String str3="RAM";
+
+1 2 3 4 
+
+thread 1 is running 1
+thread2 is running 2
+trhead1 is runing 3
+
+
+// write your code here...
+
+class OddThread1 extends Thread{
+    public void run(){
+        int i,val=1;
+        for(i=1;i<=5;i++){
+            System.out.println("Thread1 is running. value is= "+val);
+            val=val+2;
+        }
+    }
+}
+class EvenThread2 extends Thread{
+    public void run(){
+        int i,val=2;
+        for(i=1;i<=5;i++){
+            System.out.println("Thread2 is running. value is= "+val);
+            val=val+2;
+        }
+    }
+}
+class ThreadUse{
+    public static void main(String[] args){
+        Thread t1=new OddThread1();
+        Thread t2=new EvenThread2();
+        t1.start();
+        t1.join();
+        t2.start();
+        t2.join();
+        System.out.println("Both Thread Exectuted");
+    }
+}
+
+class OddThread1 extends Thread{
+    public void run(){
+        int i,val=1;
+        for(i=1;i<=10;i++){
+            System.out.println("Thread1 is running. value is= "+val);
+            val=val+2;
+            try{Thread.sleep(1000);}catch(Exception e){};
+        }
+    }
+}
+class EvenThread2 extends Thread{
+    public void run(){
+        int i,val=2;
+        for(i=1;i<=10;i++){
+            System.out.println("Thread2 is running. value is= "+val);
+            val=val+2;
+            try{Thread.sleep(1000);}catch(Exception e){};
+        }
+    }
+}
+class ThreadUse{
+    public static void main(String[] args){
+        Thread t1=new OddThread1();
+        Thread t2=new EvenThread2();
+        t1.start();
+        t2.start();
+        t2.join();
+        t1.join();
+        System.out.println("Both Thread Exectuted");
+    }
+}
+
+
+https://www.youtube.com/watch?v=CojCE-ojdGY
+https://www.javatpoint.com/corejava-interview-questions
+
+// write your code here...
+9262508976
+
+
+1 2 3 4 5 6 7 8 9 
+
+k=10
+
+5 4 1
+6 3 1
+7 2 1
+
+#Sort 1 2 3 4 5 6 7 8 9
+# 1, K=9, (2,7),(3,6)
+# 2
+
+
+https://www.youtube.com/watch?v=CojCE-ojdGY
+https://www.javatpoint.com/corejava-interview-questions
+
+
+
+class ArrayMatchK{
+    
+    
+    
+}
+
+public void ArraySumtoK(int[] Arr,int K){
+        int L=Arr.length();
+        Arr.sort();
+        int i,j,m,Kr;
+        for(i=0;i<L;i++){
+            Kr=K-Arr[i];
+            int p1=i+1;
+            int p2=L-1;
+            while(p1<p2){
+                if((Arr[p1]+Arr[p2])<Kr){
+                    p1++;
+                }else if((Arr[p1]+Arr[p2])>Kr){
+                    p2--;
+                }else{
+                    System.out.println(Arr[i]+" "+Arr[p1]+" "+Arr[p2]);
+                    return;
+                }
+            }
+        }
+        return;
+        
+    }
+
+
+# Sort
+
+
+
+
+https://www.youtube.com/watch?v=r2Q0Jzl2qMQ&list=PL3NrzZBjk6m-nYX072dSaGfyCJ59Q5TEi
+
+https://www.youtube.com/watch?v=r2Q0Jzl2qMQ&list=PL3NrzZBjk6m-nYX072dSaGfyCJ59Q5TEi
