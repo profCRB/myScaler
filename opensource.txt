@@ -1,1 +1,32 @@
+Open Source Project
+GitHub Trending
+https://github.com/TheAlgorithms/C-Plus-Plus
+https://github.com/tensorflow/tensorflow
+https://github.com/pytorch/pytorch
+https://github.com/openai/triton
+https://github.com/NVIDIA/FasterTransformer
+https://github.com/apple/swift
+https://github.com/codemistic/Data-Structures-and-Algorithms
+https://github.com/PixarAnimationStudios/USD
+https://github.com/weidai11/cryptopp
+https://github.com/MakeContributions/DSA
+https://github.com/MakeContributions/DSA
+https://github.com/onnx/onnx
 
+https://github.com/microsoft/Web-Dev-For-Beginners
+https://github.com/mermaid-js/mermaid
+https://github.com/TheAlgorithms/JavaScript
+https://github.com/CesiumGS/cesium
+https://github.com/facebook/react
+
+https://github.com/orgs/openai/repositories?page=1
+
+Other Ideas:
+Create a DSP package in javascript
+
+Tasks:
+daily read a existing repository. You will get the idea.
+
+https://www.youtube.com/watch?v=SXW_bA4SGqA
+
+https://www.youtube.com/watch?v=GbqSvJs-6W4
