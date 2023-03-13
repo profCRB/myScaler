@@ -9,3 +9,6 @@ packages:JSON,express,body-parser,jwt token
 https://www.educative.io/answers/what-is-exists-in-mongoose
 Promises
 https://stackoverflow.com/questions/48799894/trying-to-hash-a-password-using-bcrypt-inside-an-async-function
+
+Need to deel with this 
+OverwriteModelError: Cannot overwrite `Player` model once compiled.
